@@ -1,0 +1,388 @@
+
+
+
+
+
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h2{
+    font-size:70px;
+    text-align: center;
+    padding:50px;
+}
+header{
+    
+    background-color:rgb(17, 167, 167);
+    
+
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+}
+ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+}
+.service{
+    color: red;
+    
+}
+
+.right button{
+    background-color:white;
+    border:none;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    margin-top:20px;
+    margin-right:20px;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+.right button:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(28, 3, 3);
+    cursor: pointer;
+}
+
+
+
+/*.............................main-first......................... */
+
+
+main .first{
+    background-color:rgb(227, 220, 220);
+    padding:80px;
+    font-size: 30px;
+}
+
+.box-section-1{
+    text-align:center;
+}
+.first-1{
+    border: 3px solid red;
+    display: inline-block;
+    padding:100px;
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+}
+.first-1 .box1{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    border: 1.5px solid black;
+    height:50px;
+    padding:40px;
+    margin:15px;
+    
+}
+#box1{
+    border: 10px solid rgb(203, 12, 12);
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    
+    height:50px;
+    padding:40px;
+    margin:15px;
+}
+main .first .box-section-1 .first-1 #box2{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    
+    height:50px;
+    padding:40px;
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+    float: left;
+    
+}
+main .first .box-section-1 .first-1  #box3{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    
+    height:50px;
+    padding:40px;
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+    float: right;
+    
+}
+
+
+
+
+
+
+/* ................................main-second................*/
+
+
+
+
+main .second{
+    background-color:rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 60px;
+}
+
+.box-section-2{
+    text-align:center;
+}
+.second-1{
+    border: 3px solid red;
+    display: inline-block;
+    padding:100px;
+    margin: 10px;
+    
+}
+.second-1 .box2{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    border: 1.5px solid black;
+    height:50px;
+    padding:40px;
+    margin:15px;
+    
+}
+#box4{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    position: static;
+    height:50px;
+    padding:40px;
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+}
+#box7{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    height:50px;
+    padding:40px;
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+}
+
+#box10{
+    
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    position: absolute;
+top: 1580px; right: 1050px;
+    height:50px;
+    padding:40px;
+    
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+}
+#box13{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color:rgb(91, 182, 152);
+    color: black;
+    
+    height:50px;
+    padding:40px;
+    margin:15px;
+    border: 10px solid rgb(203, 12, 12);
+}
+
+
+
+
+
+
+
+/* ................................main-third................*/
+
+
+
+
+
+
+
+.third{
+    background-color:rgb(227, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.box15{
+    font-size: 50px;
+    font-weight: bolder;
+    border: 4px solid blue;
+    padding: 30px;
+    margin: 15px;
+    background-color:rgb(90, 211, 211);
+}
+hr.new1 {
+    border: 1px solid red;
+    
+}
+
+
+
+
+/* ................................main-fourth................*/
+
+
+
+.grid{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 120px;
+    
+    
+}
+.container{
+    justify-content:center;
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px;
+    row-gap: 100px;
+    column-gap: 100px;
+    
+}
+.grid .container .item{
+    border: 10px solid rgb(57, 57, 207);
+    background-color:aquamarine;
+    padding:30px;
+    border-radius: 15%;
+    height:100px;
+    width: 100px;  
+    font-size: 50px;
+}
+/* .container #item{
+    justify-self: center;
+} */
+
+
+
+
+
+
+
+/* ................................main-fifth................*/
+
+
+
+
+
+
+.grid-2{
+    background-color: rgb(234, 203, 203);
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.container-2{
+   
+    
+    justify-content:center;
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px ;
+    grid-template-rows:00px
+    column-gap: 100px;
+    
+}
+.grid-2 .container-2 .item1{
+    border: 10px solid rgb(57, 57, 207);
+    background-color:aquamarine;
+    padding:30px;
+    border-radius: 15%;
+    height:100px;
+    width: 100px;  
+    font-size: 50px;
+}
+.item3{
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+
+
+
+/* ..............................main-last................. */
+
+
+
+main .boxes{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.last .items{
+    font-size: 50px;
+    width: 170px;
+    height: 170px;
+    background-color: aquamarine;
+    border: 4px solid aqua;
+    text-align: center;
+    padding-top: 65px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+/* .................footer.................. */
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(19, 153, 111);
+}
+span{
+    margin-right: 35px;
+    font-size: 35px;
+    color: white;
+}
+
+
+a{
+    color: white;
+    padding-top: 20px; 
+    font-size: 30px;
+}
